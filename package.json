@@ -1,0 +1,23 @@
+{
+  "name": "sport-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sever.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nhernandez2020/sport-blog.git"
+  },
+  "author": "noe hernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nhernandez2020/sport-blog/issues"
+  },
+  "homepage": "https://github.com/nhernandez2020/sport-blog#readme",
+  "dependencies": {
+    "bootstrap": "^3.4.1",
+    "express": "^4.17.1"
+  }
+}
