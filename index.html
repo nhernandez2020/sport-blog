@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>home</title>
 
-    <link rel="stylesheet" type="text/css" href="css/style.css">
     
      <!-- Font Awesome -->
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -15,14 +14,115 @@
      <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
      <!-- Material Design Bootstrap -->
      <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+     <link href="assets/css/style.css" type="text/css" rel="stylesheet"/>
+
+
 </head>
+
+
 <body>
-     <header ng-include="'header.html'"></header>
-     <main ng-view></main>
-     <footer ng-include="'footer.html'"></footer>
-    
-    
+
+
+<header>
+
+     <nav class=" navbar navbar-expand-lg navbar-dark  cyan darken-3 ">
+          <a class="navbar-brand" href="https://noe-hernandez.com"><strong>Noe Hernandez</strong></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+               aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+               <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                         <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="aboutus.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="comments.html">Comments</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="contact.html">Contact </a>
+                    </li>
+               </ul>
+               <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+                         <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link"><i class="fab fa-linkedin"></i></a>
+                    </li>
+               </ul>
+          </div>
+     </nav>
+</header>
+<!-- <style>
+     div {
+          background-image: url('/Users/Noe/Desktop/sport-blog/fire-and-water-boxing .jpg');
+     }
+</style> -->
+
+<h1>Confessions of a Boxing Freak</h1>
+
+     <!-- Footer -->
+     <footer class=" page-footer font-small cyan darken-3">
+
+          <!-- Footer Elements -->
+          <div class="container">
+
+               <!-- Grid row-->
+               <div class="row">
+
+                    <!-- Grid column -->
+                    <div class="col-md-12 py-5">
+                         <div class="mb-5 flex-center">
+
+                              <!-- Facebook -->
+                              <a class="fb-ic">
+                                   <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                              </a>
+                              <!-- Twitter -->
+                              <a class="tw-ic">
+                                   <i class="fab fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                              </a>
+                              <!-- Github-->
+                              <a class="gplus-ic">
+                                   <i class="fab fa-github fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                              </a>
+                              <!--Linkedin -->
+                              <a class="li-ic">
+                                   <i class="fab fa-linkedin-in fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                              </a>
+
+                         </div>
+                    </div>
+                    <!-- Grid column -->
+
+               </div>
+               <!-- Grid row-->
+
+          </div>
+          <!-- Footer Elements -->
+
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+               <a href="https://noe-hernandez.com"> Noe Hernandez</a>
+          </div>
+          <!-- Copyright -->
+
+     </footer>
+     <!-- Footer -->
 </body>
 
-<script type="text/javascript" src="app.js"></script>
+
+<script src="app.js"></script>
+
 </html>
