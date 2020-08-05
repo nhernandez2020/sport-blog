@@ -12,12 +12,18 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+
+
+ 
+
+
 </head>
 <body>
    <!--Main Navigation-->
    <header>
 
-       <nav class="navbar navbar-expand-lg navbar-dark  cyan darken-3">
+       <nav class="navbar navbar-expand-lg navbar-dark  blue">
            <a class="navbar-brand" href="https://noe-hernandez.com"><strong>Noe Hernandez</strong></a>
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,94 +47,62 @@
                        <a class="nav-link" href="contact.html">Contact </a>
                    </li>
                </ul>
-               <ul class="navbar-nav nav-flex-icons">
-                   <li class="nav-item">
-                       <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link"><i class="fab fa-twitter"></i></a>
-                   </li>
-                   <li class="nav-item">
-                       <a class="nav-link"><i class="fab fa-linkedin"></i></a>
-                   </li>
-               </ul>
+               
            </div>
        </nav>
 
    </header>
+  
+<style>
+    body,
+    html {
+        height: 100%;
+    }
+
+    .parallax {
+        /* The image used */
+        background-image: url('boxing ring image .jpg');
+
+        /* Full height */
+        height: 100%;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+</style>
+</head>
+
+<body>
+
+    <div class="parallax"></div>
+
+    <div style="height:300px;background-color: lightgray;font-size:25px; center">
+       
+
+        <label>Name
+            <input id=   "name" type="string" name="name">
+        </label><br>
+        <label>Email
+            <input id=  "email" type="string" name="email">
+        </label><br>
+        <label>Comment
+        <textarea id="comment" name="comment"></textarea>
+        </label>
+        <input type="submit" value="Add Comment">
+        </form>
+    </div>
+
+    <div class="parallax"></div>
    
 
- <!-- comment body -->
  
-   <div class="container">
-       <div class="row">
-           <div class="col-md-8">
-               <div class="page-header">
-                   <h1><small class="pull-right">45 comments</small> Comments </h1>
-               </div>
-               <div class="comments-list">
-                   <div class="media">
-                       <p class="pull-right"><small>5 days ago</small></p>
-                       <a class="media-left" href="#">
-                           <img src="http://lorempixel.com/40/40/people/1/">
-                       </a>
-                       <div class="media-body">
 
-                           <h4 class="media-heading user_name">Baltej Singh</h4>
-                           Wow! this is really great.
-
-                           <p><small><a href="">Like</a> - <a href="">Share</a></small></p>
-                       </div>
-                   </div>
-                   <div class="media">
-                       <p class="pull-right"><small>5 days ago</small></p>
-                       <a class="media-left" href="#">
-                           <img src="http://lorempixel.com/40/40/people/2/">
-                       </a>
-                       <div class="media-body">
-
-                           <h4 class="media-heading user_name">Baltej Singh</h4>
-                           Wow! this is really great.
-
-                           <p><small><a href="">Like</a> - <a href="">Share</a></small></p>
-                       </div>
-                   </div>
-                   <div class="media">
-                       <p class="pull-right"><small>5 days ago</small></p>
-                       <a class="media-left" href="#">
-                           <img src="http://lorempixel.com/40/40/people/3/">
-                       </a>
-                       <div class="media-body">
-
-                           <h4 class="media-heading user_name">Baltej Singh</h4>
-                           Wow! this is really great.
-
-                           <p><small><a href="">Like</a> - <a href="">Share</a></small></p>
-                       </div>
-                   </div>
-                   <div class="media">
-                       <p class="pull-right"><small>5 days ago</small></p>
-                       <a class="media-left" href="#">
-                           <img src="http://lorempixel.com/40/40/people/4/">
-                       </a>
-                       <div class="media-body">
-
-                           <h4 class="media-heading user_name">Baltej Singh</h4>
-                           Wow! this is really great.
-
-                           <p><small><a href="">Like</a> - <a href="">Share</a></small></p>
-                       </div>
-                   </div>
-               </div>
-
-
-
-           </div>
-       </div>
-   </div>
     
 <!-- Footer -->
-<footer class=" page-footer font-small cyan darken-3">
+<footer class=" page-footer font-small blue">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -177,4 +151,5 @@
 <!-- Footer -->
 
 </body>
+<script type="text/javascript" src="app.js"></script>
 </html>
